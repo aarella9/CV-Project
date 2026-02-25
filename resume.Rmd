@@ -1,6 +1,6 @@
 ---
-title: Nick Strayer's Resume"
-author: Nick Strayer
+title: AJ Arellano's Resume"
+author: AJ Arellano
 date: "`r Sys.Date()`"
 output:
   pagedown::html_resume:
@@ -47,56 +47,61 @@ Aside
 ================================================================================
 
 
-![logo](beta_dist.png){width=100%}
+![logo](C:/Users/ajare/OneDrive/Documents/Site Stuff/aj_smilesqare.png){width=100%}
 
 Contact {#contact}
 --------------------------------------------------------------------------------
 
 
 
-- <i class="fa fa-envelope"></i> nick.strayer@gmail.com
-- <i class="fa fa-twitter"></i> NicholasStrayer
-- <i class="fa fa-github"></i> github.com/nstrayer
-- <i class="fa fa-link"></i> [nickstrayer.me](http://nickstrayer.me/)
-- <i class="fa fa-phone"></i> (734) 645-0110
+- <i class="fa fa-envelope"></i> aarella9@asu.edu
+- <i class="fa fa-twitter"></i> Nghtlife9
+- <i class="fa fa-github"></i> github.com/aarella9
+- <i class="fa fa-link"></i> [ajarellano.com](http://nickstrayer.me/)
+- <i class="fa fa-phone"></i> (480) 244-9069
 
 
 
-Language Skills {#skills}
+Tools Used {#skills}
 --------------------------------------------------------------------------------
 
 
 ```{r}
 skills <- tribble(
   ~skill,               ~level,
-  "R",                  5,
-  "Javascript (d3.js)", 4.5,
-  "Python",             4,
-  "Bash",               3.5,
-  "SQL",                3,
-  "C++",                3,
-  "AWK",                3
+  "Premiere Pro",                  4,
+  "After Effects", 3,
+  "Photoshop",             2,
+  "Illustrator",               2,
+  "Unreal Engine",                2,
+  "Blender",                2,
+  "Disguise",                1
 )
 build_skill_bars(skills)
 ```
 
 
 
-Open Source Contributions {#open-source}
+Portfolio Website {#open-source}
 --------------------------------------------------------------------------------
 
-All projects available at `github.com/nstrayer/<name>`
+Types of Editing and Motion Design work:
 
 
-- `shinysense`: R package to use sensor data in Shiny apps
-- `tuftesque`: Hugo theme (behind LiveFreeOrDichotomize.com)
-- `slid3r`: D3 add-on for fully svg slider inputs
+- Sizzles
+- Commercials
+- TV Broadcast
+- Recaps
+- Behind The Scenes
+- Documentary
+- Branding
+- Character Animation
 
 
 More info {#more-info}
 --------------------------------------------------------------------------------
 
-See full CV at nickstrayer.me/cv for more complete list of positions and publications.
+Contact me at https://www.ajarellano.com/about for work inquiries
 
 
 Disclaimer {#disclaimer}
@@ -104,7 +109,7 @@ Disclaimer {#disclaimer}
 
 Made w/ [**pagedown**](https://github.com/rstudio/pagedown). 
 
-Source code: [github.com/nstrayer/cv](https://github.com/nstrayer/cv).
+Source code: [github.com/aarella9/CV-Project](https://github.com/aarella9/CV-Project).
 
 Last updated on `r Sys.Date()`.
 
@@ -114,13 +119,13 @@ Last updated on `r Sys.Date()`.
 Main
 ================================================================================
 
-Nick Strayer {#title}
+AJ Arellano {#title}
 --------------------------------------------------------------------------------
 
 ```{r}
-intro_text <- "I have made [visualizations viewed by hundreds of thousands of people](https://www.nytimes.com/interactive/2016/08/26/us/college-student-migration.html), [sped up query times for 25 terabytes of data by an average of 4,800 times](https://livefreeordichotomize.com/2019/06/04/using_awk_and_r_to_parse_25tb/), and built [packages for R](https://github.com/nstrayer/shinysense) that let you [do magic](http://nickstrayer.me/dataDayTexas/).
+intro_text <- "I have been apart of various video editing and motion design projects, including [commercials](https://ajarellano.com/commercials),  [sizzle reels](https://ajarellano.com/sizzles), and [broadcast productions](https://ajarellano.com/tv-broadcast).
 
-Currently searching for a data science position that allows me to build tools using visualization and machine learning to help people explore and understand their data. 
+Currently taking on freelance video editing and motion design projects. 
 "
 
 
@@ -138,14 +143,14 @@ position_data %>% print_section('education')
 
 
 
-Selected Positions {data-icon=suitcase}
+Work Experience {data-icon=suitcase}
 --------------------------------------------------------------------------------
 
 ```{r}
 position_data %>% print_section('positions')
 ```
 
-Selected Writing {data-icon=newspaper}
+Project Highlights {data-icon=newspaper}
 --------------------------------------------------------------------------------
 
 
